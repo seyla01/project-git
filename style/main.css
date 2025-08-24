@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     padding: 0;
     margin: 0;
 }
@@ -75,3 +76,98 @@ body{
 .place-colaboration img{
     width: 40%;
 }
+=======
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* padding: 0px 100px; */
+    background: rgb(242, 2, blue);
+}
+.content{
+    background: rgb(242, 220, 223);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content img{
+    margin-left: 200px;
+    width: 150px;
+}
+.link {
+    /* background: red; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 280px;
+    align-items: center;
+    list-style: none;
+}
+.image img{
+    width: 100%;
+    height: 400px;
+}
+.letter {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.choose img{
+    width: 80px;
+    height: 80px;
+    justify-content: end;
+    
+}
+.choose{
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    /* margin-left: 85px; */
+    border-radius: 10px;
+    padding: 10px ;
+}
+.choose-iamegs{
+    display: flex;
+    justify-content: end;
+    /* padding-bottom: 150px; */
+    padding-left: 60px;
+    padding-top: 10px;
+}
+h1{
+    margin-left: 85px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.money{
+    padding-top: 25px;
+}
+.menu{
+    padding-top: 20px;
+}
+.allconent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.End{
+    background: rgb(243, 228, 230);
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    }
+.Next{
+    width: 35pxpx;
+    height: 35px;
+    display: flex;
+    padding-top: 100px;
+    gap: 20px;
+    
+    
+}
+
+>>>>>>> feature/about
