@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+
+}
+.image{
+    background: teal;
+    margin-top: 48px;
+    display: flex;
+    /* gap: 24px; */
+}
+.paragraph{
+    padding-left: 200px;
+    margin-top: 80px;
+    font-size: 32px;
+}
