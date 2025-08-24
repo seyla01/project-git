@@ -3,17 +3,75 @@
     margin: 0;
 }
 body{
-    
-
+    font-family: sans-serif;
+    height: 100vh;
 }
 .image{
     background: teal;
-    margin-top: 48px;
     display: flex;
-    /* gap: 24px; */
+}
+.header{
+   justify-self: center;
+   padding:16px
 }
 .paragraph{
-    padding-left: 200px;
-    margin-top: 80px;
+    font-size: 24px;
+}
+.button a{
+    background: black;
+    color: white;
+    padding: 10px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px ;    
+}
+.button{
+    margin-top: 32px;
+}
+.main{
+    margin-top: 64px;
+}
+.main h2 {
+    text-align: center;
+}
+.special-cake{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.special-cake img{
+    width: 280px;
+}
+.card{
+    padding-top: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card button{
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px ;
+    width: 100px;
+    align-self: center;
+}
+.wedding-cake, .place-colaboration{
+    width: 80%;
+    margin-top: 110px;  
+    display: flex;  
+    gap: 56px;
+}
+.wedding-cake span{
     font-size: 32px;
+}
+.wedding-cake img{
+    width: 40%;
+}
+
+.place-colaboration img{
+    width: 40%;
 }
