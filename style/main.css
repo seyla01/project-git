@@ -34,3 +34,43 @@ body{
     list-style: none;
     justify-content: space-evenly;
 }
+.choose img{
+    width: 80px;
+    height: 80px;
+    justify-content: end;
+    
+}
+.choose{
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    /* margin-left: 85px; */
+    border-radius: 10px;
+    padding: 10px ;
+}
+.choose-iamegs{
+    display: flex;
+    justify-content: end;
+    /* padding-bottom: 150px; */
+    padding-left: 60px;
+    padding-top: 10px;
+}
+h1{
+    margin-left: 85px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.money{
+    padding-top: 25px;
+}
+.menu{
+    padding-top: 20px;
+}
+.allconent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
