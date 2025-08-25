@@ -82,6 +82,10 @@ body{
     /* padding: 0px 100px; */
     /* background: rgb(242, 2, blue); */
 
+    /* background: rgb(242, 2, blue);
+      font-family: Arial, sans-serif;
+
+} */
 .content{
     background: rgb(242, 220, 223);
     width: 100%;
@@ -90,7 +94,7 @@ body{
 }
 .content img{
     margin-left: 200px;
-    width: 150px;
+    width: 100px;
 }
 .link {
     /* background: red; */
