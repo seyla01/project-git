@@ -4,6 +4,8 @@
 }
 body{
     background-color: rgb(195, 135, 145);
+      font-family: Arial, sans-serif;
+
 }
 .content{
     background: rgb(242, 220, 223);
@@ -13,7 +15,7 @@ body{
 }
 .content img{
     margin-left: 200px;
-    width: 150px;
+    width: 100px;
 }
 .link {
     /* background: red; */
@@ -26,7 +28,7 @@ body{
 }
 .container{
     text-align: center;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
 }
 h1{
     font-size: 22px;
@@ -53,7 +55,7 @@ a-email{
 img{
     justify-self: center;
     display: flex;
-    margin: 40px 0 40px 0;
+    /* margin: 40px 0 40px 0; */
 }
 footer{
     display: flex;
