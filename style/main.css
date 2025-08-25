@@ -75,12 +75,6 @@ body{
 .place-colaboration img{
     width: 40%;
 }
-    /* margin: 0;
-    padding: 0;
-}
-body{
-    /* padding: 0px 100px; */
-    /* background: rgb(242, 2, blue); */
 
     /* background: rgb(242, 2, blue);
       font-family: Arial, sans-serif;
@@ -163,7 +157,7 @@ h1{
     border-radius: 10px;
     }
 .Next{
-    width: 35pxpx;
+    width: 35px;
     height: 35px;
     display: flex;
     padding-top: 100px;
