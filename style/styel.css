@@ -5,6 +5,25 @@
 body{
     background-color: rgb(195, 135, 145);
 }
+.content{
+    background: rgb(242, 220, 223);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content img{
+    margin-left: 200px;
+    width: 150px;
+}
+.link {
+    /* background: red; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 280px;
+    align-items: center;
+    list-style: none;
+}
 .container{
     text-align: center;
     padding: 40px 20px;
