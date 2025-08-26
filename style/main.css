@@ -7,7 +7,7 @@ body{
     background: rgb(242, 2, blue);
 }
 .content{
-    background: rgb(242, 220, 223);
+    background: rgb(209, 206, 206);
     width: 100%;
     display: flex;
     justify-content: space-between;
