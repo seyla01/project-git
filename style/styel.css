@@ -57,7 +57,7 @@ img{
     display: flex;
     /* margin: 40px 0 40px 0; */
 }
-footer{
+/* footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,4 +74,27 @@ footer img-logo{
 .media a img {
       width: 28px;
       height: 28px;
-    }
+    } */
+.footer-container {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 56px 200px;
+    align-items: center;
+}
+.footer-logo {
+    height: 80px; 
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+}
