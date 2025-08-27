@@ -10,10 +10,10 @@ body{
 .image-head{
     background: teal;
     display: flex;
-    /* width: 32px; */
+
 }
 .image-head img{
-    width: 400px;
+    width: 380px;
 }
 .header{
    padding:56px 300px;
