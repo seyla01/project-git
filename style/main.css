@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     height: 100vh;
     background:rgb(239, 232, 232);
 }
@@ -15,21 +15,23 @@ body{
 .image-head img{
     width: 380px;
 }
-.header{
-   padding:56px 300px;
+.button{
+    padding: 32px 310px;
   
 }
-.paragraph p{
+.paragraph {
     font-size: 24px;
     position: relative;
     right: 130px;
+    padding-top: 100px;
+    padding-left:440px;
 }
 .button a{
     background: black;
     color: white;
     padding: 10px 24px;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: none;   
     text-transform: uppercase;
     border: none;
     border-radius: 8px ;   
@@ -40,23 +42,16 @@ body{
 }
 .main{
     margin-top: 64px;
-    /* background: green; */
-    /* padding: 32px 300px; */
-    padding-left: 150px;
-
 }
 .main h2 {
-    padding-left: 350px;
+    text-align: center;
     font-size: 35px;
 }
-.special-cake{
+.special-cake,.special-under{
     display: flex;
     gap: 32px;
+    justify-content: center;
     
-}
-.special-under{
-    display: flex;
-    gap: 32px;
 }
 .special-under img{
     width: 280px;
@@ -93,7 +88,7 @@ body{
 .wedding-cake, .place-colaboration{
     margin-top: 110px;  
     display: flex;  
-    gap: 56px;
+    gap: 80px;
     
 }
 .wedding-cake span{
@@ -116,18 +111,19 @@ body{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 56px 200px;
+    padding: 32px 268px;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .footer-logo {
-    height: 80px; 
+    height: 90px; 
 
 }
 
 .social-icons {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .social-icons img {
@@ -135,29 +131,27 @@ body{
     height: 32px;
     transition: transform 0.2s;
 }
-
-
-
-
-
 .content{
     background: rgb(242, 220, 223);
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 .content img{
     margin-left: 200px;
     width: 100px;
 }
 .link {
-    /* background: red; */
-    width: 30%;
     display: flex;
-    justify-content: space-between;
-    margin-right: 280px;
+    margin-right: 200px;
     align-items: center;
-    list-style: none;
+    list-style: none;    
+    
+}
+.link a{
+    display: flex;
+    text-decoration: none;
+    padding-left: 48px;
 }
 .images img{
     width: 100%;
