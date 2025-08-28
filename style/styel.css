@@ -8,6 +8,7 @@ body{
 .content{
     background: rgb(242, 220, 223);
     width: 100%;
+    height: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -60,7 +61,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #e2dada;
+    height: 190px;
+    background-color: rgb(242, 220, 223);
 }
 footer img-logo{
     height: 50px;
@@ -70,6 +72,6 @@ footer img-logo{
     gap: 15px;
 }
 .media a img {
-      width: 28px;
-      height: 28px;
-    }
+    width: 28px;
+    height: 28px;
+}
