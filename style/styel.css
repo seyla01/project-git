@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(195, 135, 145);
+    background-color: rgb(217, 197, 200);
     font-family: Arial, sans-serif;
 
 }
@@ -15,7 +15,7 @@ body{
 }
 .content img{
     margin-left: 200px;
-    width: 100px;
+    width: 80px;
 }
 .link {
     /* background: red; */
@@ -55,26 +55,11 @@ a-email{
 img{
     justify-self: center;
     display: flex;
+    margin-bottom: 10px;
+    
     /* margin: 40px 0 40px 0; */
 }
-/* footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: #e2dada;
-}
-footer img-logo{
-    height: 50px;
-}
-.media{
-    display:flex;
-    gap: 15px;
-}
-.media a img {
-      width: 28px;
-      height: 28px;
-    } */
+
 .footer-container {
     background: #fff;
     display: flex;
@@ -97,4 +82,85 @@ footer img-logo{
     width: 32px;
     height: 32px;
     transition: transform 0.2s;
+}
+/* ###########new########## */
+
+@media(max-width:1000px){
+    body{
+        width: fit-content;
+    }
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+    }
+    .content img{
+        margin-left: 150px;
+        width: 80px;
+    }
+    .link {
+        display: flex;
+        margin-right: 250px;
+        align-items: center;
+        list-style: none;    
+        
+    }
+    .link a{
+        font-size: 16px;
+        display: flex;
+        text-decoration: none;
+        /* padding-left: 12px; */
+    }
+    .footer-container {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* padding: 56px 200px; */
+    align-items: center;
+    width: 150vh;
+     /* margin: auto; */
+}
+ 
+  
+}
+
+@media(max-width:480px){
+    
+    .content{
+        display: flex;
+        width: 120vh;
+        
+    }
+    .content img{
+        margin-left: 8px;
+        width: 80px;
+    }
+    .link {
+        display: flex;
+        margin-right: 110px;
+        align-items: center;
+        list-style: none; 
+        margin-left: 60px; 
+        
+    }
+    .link a{
+        font-size: 12px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 10px;
+        
+    }
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    width: 120vh;
+}
+    .footer-logo{
+        position: relative;
+        right: 200px;
+        
+    }
 }
