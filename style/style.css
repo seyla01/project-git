@@ -148,8 +148,8 @@ footer {
     .link {
         display: flex;
         margin-left: 50px3
-        align-items: center;
-        list-style: none;    
+        /* align-items: center;git */
+        /* list-style: none;     */
         
     }
     .link a{
