@@ -167,14 +167,12 @@ body{
     display: flex;
     border: 1px solid black;
     width: 400px;
-    /* margin-left: 85px; */
     border-radius: 10px;
     padding: 10px ;
 }
 .choose-iamegs{
     display: flex;
     justify-content: end;
-    /* padding-bottom: 150px; */
     padding-left: 60px;
     padding-top: 10px;
 }
@@ -234,11 +232,9 @@ h1{
     }
     .link {
         display: flex;
-        /* margin-right: 80px; */
         gap: 32px;
         align-items: center;
         list-style: none;
-        /* gap: 5px; */
         
         
     }
@@ -259,16 +255,15 @@ h1{
     gap: 24px;
     position: relative;
     right: 75px;
-}
-.social-icons img {
-    width: 25px;
-    height: 25px;
-    transition: transform 0.2s;
-}
+    }
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+        transition: transform 0.2s;
+    }
 }
 
 
-/* 
 
 @media(max-width:425px){
     body{
@@ -282,7 +277,7 @@ h1{
     }
     .content img{
         margin-left: 8px;
-        width: 80px;
+        
     }
     .link {
         display: flex;
@@ -290,9 +285,9 @@ h1{
         gap: 24px;
         align-items: center;
         list-style: none;
-        /* gap: 5px; */
+        gap: 5px; 
         
-    }
+    
     .link a{
         font-size: 16px;
         display: flex;
@@ -301,55 +296,42 @@ h1{
         
     }
     .footer-logo{
-        /* background: #000; */
         position: relative;
         right: 200px;
         
     }
     .social-icons {
-    display: flex;
-    gap: 24px;
-    position: relative;
-    right: 75px;
+        display: flex;
+        gap: 24px;
+        position: relative;
+        right: 75px;
+    }
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+        transition: transform 0.2s;
+    }
 }
-.social-icons img {
-    width: 25px;
-    height: 25px;
-    transition: transform 0.2s;
-}
-
-} 
-
-
 
 
 @media (max-width:320px){
-    body{
-        background-color: pink;
-    }
     .image-head img{
         overflow-x: auto;
     }
     .card img{
         overflow-x: auto;
     }
-    .main{
-        background: red;
-    }
     .special-cake{
        gap: 4px;
-       background: #000;
        padding:4px;
     }
     .special-under{
         gap:4px;
-        background: white;
         padding:0px;
         padding-left: 0px;
     }
     .card{
         margin-left:4px;
-        background: #000;
         width:80px;
     }
 
@@ -366,7 +348,7 @@ h1{
     }
     .content img{
         margin-left: 8px;
-        width: 100px;
+        width: 200px;
     }
     .link {
         display: flex;
@@ -389,8 +371,7 @@ h1{
         position: relative;
         right: 0px;
         padding-top: 32px;
-        padding-left: 10px;
-        
+        padding-left: 10px;   
     } 
    .button {
     padding: 0px 10px; 
@@ -406,7 +387,7 @@ h1{
     }
     .special-cake,.special-under{
         display: flex;
-        gap: 20px;
+        gap: 32px;
         justify-content: center;
 
     
@@ -488,19 +469,3 @@ h1{
     }
     
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

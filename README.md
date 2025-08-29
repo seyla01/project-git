@@ -28,3 +28,10 @@ Our team member name:
 # 🌍 Deployed Link
 
 #  📸 Screenshots (Optional)
+## Home page
+![alt text](image-1.png)
+
+## About page
+![alt text](image-3.png)
+
+## 
