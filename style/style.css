@@ -20,7 +20,7 @@ body {
 
 .content img {
     margin-left: 200px;
-    width: 100px;
+    width: 90px;
 }
 
 .link {
@@ -35,7 +35,12 @@ body {
 
 img {
     width: 100%;
+<<<<<<< HEAD
 
+=======
+    /* height: 200px */
+    
+>>>>>>> 0417f1a5f51b8d541a1fd8949248e963282023d8
     /* opacity: 0.2; */
     /* height: 500px; */
 }
@@ -49,11 +54,24 @@ img {
 .hero {
     height: 580px;
     align-items: center;
-    /* padding: 300px; */
     line-height: 40px;
+<<<<<<< HEAD
     background-color: #ccc;
     top: -100px;
 
+=======
+    background-color: #ccc
+    
+    
+
+    
+}
+.reservation input, .reservation select, .reservation button {
+      
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+>>>>>>> 0417f1a5f51b8d541a1fd8949248e963282023d8
 }
 
 .reservation input,
@@ -92,6 +110,14 @@ footer {
     height: 200px;
 }
 
+<<<<<<< HEAD
+=======
+/* .footer-logo {
+    
+    
+} */
+
+>>>>>>> 0417f1a5f51b8d541a1fd8949248e963282023d8
 .social-icons {
     display: flex;
     gap: 15px;
@@ -135,3 +161,75 @@ footer {
 .ten img {
     width: 200px;
 }
+<<<<<<< HEAD
+=======
+/* #############new######### */
+@media(max-width:1000px){
+    body{
+        width:fit-content ;
+    }
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+        width: 200vh;
+    }
+    .content img{
+        width: 80px;
+        position: relative;
+        right: 50px;
+        
+        
+    }
+    .link {
+        display: flex;
+        margin-left: 50px3
+        /* align-items: center;git */
+        /* list-style: none;     */
+        
+    }
+    .link a{
+        font-size: 12px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 12px;
+    }
+    .hero {
+    height:580px;
+    align-items: center;
+    /* padding: 300px; */
+    line-height: 40px;
+    /* background-color: #ccc; */
+    top: -100px;
+
+    
+}
+.ten img{
+    width: 200px;
+    position: relative;
+    right: 120px;
+}
+.social-icons {
+    display: flex;
+    gap: 24px;
+    /* margin-right: 20px; */
+    padding-left: 130px;
+}
+
+}
+@media(max-width:708px){
+    body{
+        font-size: 20px;
+    }
+    .footer-container {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 56px 200px;
+    align-items: center;
+}
+
+
+}
+>>>>>>> 0417f1a5f51b8d541a1fd8949248e963282023d8

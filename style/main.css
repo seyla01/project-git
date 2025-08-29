@@ -8,9 +8,7 @@ body{
     background:rgb(239, 232, 232);
 }
 .image-head{
-    background: teal;
     display: flex;
-
 }
 .image-head img{
     width: 380px;
@@ -81,7 +79,6 @@ body{
     align-self: center;
 }
 .specail-cakePlace{
-    /* background: teal; */
     padding: 32px 300px;
     
 }
@@ -97,7 +94,6 @@ body{
 .wedding-cake img{
     width: 40%;
 }
-
 .place-colaboration img{
     width: 40%;
     height: 300px;
@@ -133,13 +129,13 @@ body{
 }
 .content{
     background: rgb(242, 220, 223);
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
 }
 .content img{
     margin-left: 200px;
-    width: 100px;
+    width: 200px;
 }
 .link {
     display: flex;
@@ -199,6 +195,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    max-width: 1300px;
 }
 .End{
     background: rgb(243, 228, 230);
@@ -219,5 +216,291 @@ h1{
 .Special{
      padding-left: 100px; 
 }
+/* #########new########## */
+
+@media(max-width: 1024px){
+    body{
+        width: fit-content;
+    }
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .content img{
+        margin-left: 8px;
+        width: 80px;
+    }
+    .link {
+        display: flex;
+        /* margin-right: 80px; */
+        gap: 32px;
+        align-items: center;
+        list-style: none;
+        /* gap: 5px; */
+        
+        
+    }
+    .link a{
+        font-size: 16px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 10px;
+        
+    }
+     .footer-logo{
+        position: relative;
+        right: 200px;
+        
+    }
+    .social-icons {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    right: 75px;
+}
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.2s;
+}
+}
+
+
+/* 
+
+@media(max-width:425px){
+    body{
+        width: fit-content;
+    }
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .content img{
+        margin-left: 8px;
+        width: 80px;
+    }
+    .link {
+        display: flex;
+        margin-right: 80px;
+        gap: 24px;
+        align-items: center;
+        list-style: none;
+        /* gap: 5px; */
+        
+    }
+    .link a{
+        font-size: 16px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 10px;
+        
+    }
+    .footer-logo{
+        /* background: #000; */
+        position: relative;
+        right: 200px;
+        
+    }
+    .social-icons {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    right: 75px;
+}
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.2s;
+}
+
+} 
+
+
+
+
+@media (max-width:320px){
+    body{
+        background-color: pink;
+    }
+    .image-head img{
+        overflow-x: auto;
+    }
+    .card img{
+        overflow-x: auto;
+    }
+    .main{
+        background: red;
+    }
+    .special-cake{
+       gap: 4px;
+       background: #000;
+       padding:4px;
+    }
+    .special-under{
+        gap:4px;
+        background: white;
+        padding:0px;
+        padding-left: 0px;
+    }
+    .card{
+        margin-left:4px;
+        background: #000;
+        width:80px;
+    }
+
+
+}  
+      
+
+
+@media (max-width:426px) {
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+    }
+    .content img{
+        margin-left: 8px;
+        width: 100px;
+    }
+    .link {
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+        list-style: none;    
+        
+    }
+    .link a{
+        font-size: 12px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 12px;
+    }
+    .image-head img{
+        width: 129.4px;
+    }   
+    .paragraph {
+        font-size: 12px;
+        position: relative;
+        right: 0px;
+        padding-top: 32px;
+        padding-left: 10px;
+        
+    } 
+   .button {
+    padding: 0px 10px; 
+    }
+    .button a{
+        padding:8px 16px;
+        font-size: 12px; 
+    }
+    .main h2{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .special-cake,.special-under{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+    
+    }
+    .special-under img{
+        width: 100px;
+    }
+    .special-cake img{
+        width: 100px;
+    }
+    .card{
+        padding-top: 24px;
+        text-align: center;
+        display: flex; 
+        flex-direction: column;
+        gap: 16px; 
+    }
+    .card button{
+        padding: 4px 0px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 4px ;
+        width: 78px;
+        align-self: center;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .specail-cakePlace{
+        padding: 16px 48px;
+    
+    }
+    .wedding-cake, .place-colaboration{
+        gap: 24px;
+    
+    }
+    .wedding-cake span{
+        font-size: 20px;
+    }
+    .describe-wedding-cake p{
+        font-size: 10px;
+    }
+    .wedding-cake img{
+        width: 150px;
+        height: 210px;
+    }
+
+    .place-colaboration img{
+        width: 150px;
+        height:180px;
+    }
+    .place-colaboration span{
+        font-size: 20px;
+    }
+    .describe-place-colaboration p{
+        font-size: 10px;
+    }
+    .footer-logo{
+        padding-left: 200px;
+        
+    }
+    .footer-container{
+        padding-left:10px;  
+        padding-right: 10px;
+        padding: 0px 0px;
+        
+    }
+    .social-icons {
+        gap: 8px;
+        width:150px;
+    }
+
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        padding-right: 24px;
+        transition: transform 0.2s;
+    }
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
