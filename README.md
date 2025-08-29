@@ -29,12 +29,12 @@ Our team member name:
 
 #  📸 Screenshots (Optional)
 ## Home page
-![alt text](readme.png)
+![alt text](./image/readme.png)
 
 ## About page
-![alt text](readme3.png)
+![alt text](./image/readme3.png)
 
 ## Function page
-![alt text](readme1.png)
+![alt text](./image/readme1.png)
 ## Hight
-![alt text](readme2.png)
+![alt text](./image/readme2.png)
