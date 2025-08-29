@@ -1,10 +1,131 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 body{
-    /* padding: 0px 100px; */
-    background: rgb(242, 2, blue);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background:rgb(239, 232, 232);
+}
+.image-head{
+    display: flex;
+}
+.image-head img{
+    width: 380px;
+}
+.button{
+    padding: 32px 310px;
+  
+}
+.paragraph {
+    font-size: 24px;
+    position: relative;
+    right: 130px;
+    padding-top: 100px;
+    padding-left:440px;
+}
+.button a{
+    background: black;
+    color: white;
+    padding: 10px 24px;
+    font-size: 18px;
+    text-decoration: none;   
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px ;   
+    
+}
+.button{
+    margin-top: 32px;
+}
+.main{
+    margin-top: 64px;
+}
+.main h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.special-cake,.special-under{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    
+}
+.special-under img{
+    width: 280px;
+}
+.special-cake img{
+    width: 280px;
+}
+.card{
+    padding-top: 24px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px; 
+    
+}
+.card img{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+.card button{
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px ;
+    width: 100px;
+    align-self: center;
+}
+.specail-cakePlace{
+    padding: 32px 300px;
+    
+}
+.wedding-cake, .place-colaboration{
+    margin-top: 110px;  
+    display: flex;  
+    gap: 80px;
+    
+}
+.wedding-cake span{
+    font-size: 32px;
+}
+.wedding-cake img{
+    width: 40%;
+}
+.place-colaboration img{
+    width: 40%;
+    height: 300px;
+    
+}
+.place-colaboration span{
+    font-size: 32px;
+}
+.footer-container {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 32px 268px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footer-logo {
+    height: 90px; 
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
 }
 .content{
     background: rgb(242, 220, 223);
@@ -14,18 +135,21 @@ body{
 }
 .content img{
     margin-left: 200px;
-    width: 150px;
+    width: 200px;
 }
 .link {
-    /* background: red; */
-    width: 30%;
     display: flex;
-    justify-content: space-between;
-    margin-right: 280px;
+    margin-right: 200px;
     align-items: center;
-    list-style: none;
+    list-style: none;    
+    
 }
-.image img{
+.link a{
+    display: flex;
+    text-decoration: none;
+    padding-left: 48px;
+}
+.images img{
     width: 100%;
     height: 400px;
 }
@@ -37,21 +161,18 @@ body{
 .choose img{
     width: 80px;
     height: 80px;
-    justify-content: end;
-    
+    justify-content: end;    
 }
 .choose{
     display: flex;
     border: 1px solid black;
     width: 400px;
-    /* margin-left: 85px; */
     border-radius: 10px;
     padding: 10px ;
 }
 .choose-iamegs{
     display: flex;
     justify-content: end;
-    /* padding-bottom: 150px; */
     padding-left: 60px;
     padding-top: 10px;
 }
@@ -72,6 +193,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    max-width: 1300px;
 }
 .End{
     background: rgb(243, 228, 230);
@@ -83,12 +205,268 @@ h1{
     border-radius: 10px;
     }
 .Next{
-    width: 35pxpx;
+    width: 35px;
     height: 35px;
     display: flex;
     padding-top: 100px;
-    gap: 20px;
-    
-    
+    gap: 20px; 
+}
+.Special{
+     padding-left: 100px; 
+}
+/* #########new########## */
+
+@media(max-width: 1024px){
+    body{
+        width: fit-content;
+    }
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .content img{
+        margin-left: 8px;
+        width: 80px;
+    }
+    .link {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        list-style: none;
+        
+        
+    }
+    .link a{
+        font-size: 16px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 10px;
+        
+    }
+     .footer-logo{
+        position: relative;
+        right: 200px;
+        
+    }
+    .social-icons {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    right: 75px;
+    }
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+        transition: transform 0.2s;
+    }
 }
 
+
+
+@media(max-width:425px){
+    body{
+        width: fit-content;
+    }
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .content img{
+        margin-left: 8px;
+        
+    }
+    .link {
+        display: flex;
+        margin-right: 80px;
+        gap: 24px;
+        align-items: center;
+        list-style: none;
+        gap: 5px; }
+        
+    
+    .link a{
+        font-size: 16px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 10px;
+        
+    }
+    .footer-logo{
+        position: relative;
+        right: 200px;
+        
+    }
+    .social-icons {
+        display: flex;
+        gap: 24px;
+        position: relative;
+        right: 75px;
+    }
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+        transition: transform 0.2s;
+    }
+}
+
+
+@media (max-width:320px){
+    .image-head img{
+        overflow-x: auto;
+    }
+    .card img{
+        overflow-x: auto;
+    }
+    .special-cake{
+       gap: 4px;
+       padding:4px;
+    }
+    .special-under{
+        gap:4px;
+        padding:0px;
+        padding-left: 0px;
+    }
+    .card{
+        margin-left:4px;
+        width:80px;
+    }
+
+
+}  
+      
+
+
+@media (max-width:426px) {
+    .content{
+        background: rgb(242, 220, 223);  
+        display: flex;
+        justify-content: space-between;
+    }
+    .content img{
+        margin-left: 8px;
+        width: 200px;
+    }
+    .link {
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+        list-style: none;    
+        
+    }
+    .link a{
+        font-size: 12px;
+        display: flex;
+        text-decoration: none;
+        padding-left: 12px;
+    }
+    .image-head img{
+        width: 129.4px;
+    }   
+    .paragraph {
+        font-size: 12px;
+        position: relative;
+        right: 0px;
+        padding-top: 32px;
+        padding-left: 10px;   
+    } 
+   .button {
+    padding: 0px 10px; 
+    }
+    .button a{
+        padding:8px 16px;
+        font-size: 12px; 
+    }
+    .main h2{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .special-cake,.special-under{
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+
+    
+    }
+    .special-under img{
+        width: 100px;
+    }
+    .special-cake img{
+        width: 100px;
+    }
+    .card{
+        padding-top: 24px;
+        text-align: center;
+        display: flex; 
+        flex-direction: column;
+        gap: 16px; 
+    }
+    .card button{
+        padding: 4px 0px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 4px ;
+        width: 78px;
+        align-self: center;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .specail-cakePlace{
+        padding: 16px 48px;
+    
+    }
+    .wedding-cake, .place-colaboration{
+        gap: 24px;
+    
+    }
+    .wedding-cake span{
+        font-size: 20px;
+    }
+    .describe-wedding-cake p{
+        font-size: 10px;
+    }
+    .wedding-cake img{
+        width: 150px;
+        height: 210px;
+    }
+
+    .place-colaboration img{
+        width: 150px;
+        height:180px;
+    }
+    .place-colaboration span{
+        font-size: 20px;
+    }
+    .describe-place-colaboration p{
+        font-size: 10px;
+    }
+    .footer-logo{
+        padding-left: 200px;
+        
+    }
+    .footer-container{
+        padding-left:10px;  
+        padding-right: 10px;
+        padding: 0px 0px;
+        
+    }
+    .social-icons {
+        gap: 8px;
+        width:150px;
+    }
+
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        padding-right: 24px;
+        transition: transform 0.2s;
+    }
+    
+
+}
