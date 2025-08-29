@@ -29,9 +29,12 @@ Our team member name:
 
 #  📸 Screenshots (Optional)
 ## Home page
-![alt text](image-1.png)
+![alt text](readme.png)
 
 ## About page
-![alt text](image-3.png)
+![alt text](readme3.png)
 
-## 
+## Function page
+![alt text](readme1.png)
+## Hight
+![alt text](readme2.png)
